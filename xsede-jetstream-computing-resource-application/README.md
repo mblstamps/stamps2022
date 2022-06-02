@@ -12,4 +12,5 @@ Separate required documents that were uploaded included:
 2. a document with resource justification ("STAMPS-2022-Resource-justification.pdf")
 3. a syllabus ("STAMPS-2022-syllabus.pdf")
 
-Request submitted on 27-May-2022.
+Request submitted on 27-May-2022
+Approved on 1-Jun-2022
