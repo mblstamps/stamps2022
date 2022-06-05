@@ -1,0 +1,66 @@
+Dear Dr. Lee:
+
+Your recently submitted an XSEDE Educational request has been reviewed and approved.
+
+PI: Michael Lee, NASA Ames Research Center
+Request: Request for Compute Infrastructure to Support the Strategies and Techniques for Analyzing Microbial Population Structures (STAMPS) at the Marine Biological Laboratory in Woods Hole, MA, USA, 2022
+Request Number: BIO220073 (New)
+Start Date: 2022-06-01
+End Date: 2023-05-31
+Awarded Resources: Indiana Jetstream2 Storage: 10,000.0 GB
+Indiana Jetstream2: 320,000.0 SUs
+
+Allocations Admin Comments:
+
+The estimated value of these awarded resources is $5,620.00. The allocation of these resources represents a considerable investment by the NSF in advanced computing infrastructure for U.S. The dollar value of your allocation is estimated from the NSF awards supporting the allocated resources.
+
+If XSEDE Extended Collaborative Support (ECSS) assistance was recommended by the review panel, you will be contacted by the ECSS team within the next two weeks to begin discussing this collaboration.
+
+For details about the decision and reviewer comments, please see below or go to the XSEDE User Portal (https://portal.xsede.org), login, click on the ALLOCATIONS tab, then click on Submit/Review Request. Once there you will see your recently awarded research request listed on the right under the section 'Approved'. Please select the view action to see reviewer comments along with the notes from the review meeting and any additional comments from the Allocations administrator.
+
+By default the PI and all co-PIs will be added to the resources awarded. If this is an award on a renewal request, current users will have their account end dates modified to reflect the new end date of this award. PIs, co-PIs, or Allocation Managers can add users to or remove users from resources on this project by logging into the portal (https://portal.xsede.org) and using the 'Add/Remove User' form.
+
+Share the impact of XSEDE! In exchange for access to the XSEDE ecosystem, we ask that all users let us know what XSEDE has helped you achieve:
+  For all publications, please acknowledge use of XSEDE and allocated resources by citing the XSEDE paper (https://www.xsede.org/how-to-acknowledge-xsede) and also add your publications to your user profile.
+  Tell us about your achievements (http://www.xsede.org/group/xup/science-achievements).
+  Help us improve our reporting by keeping your XSEDE user profile up to date and completing the demographic fields (https://portal.xsede.org/group/xup/profile).
+
+For question regarding this decision, please contact help@xsede.org.
+
+Best regards,
+XSEDE Resource Allocations Service
+
+===========================
+REVIEWER COMMENTS
+===========================
+Review #0
+Overall Rating: Good
+
+Assessment and Summary: This is a good proposal, from an experienced PI, that unfortunately was written for Jetstream1, not Jetstream2.  There is no 6 core VM On Jetstream2 (please see https://docs.jetstream-cloud.org/general/vmsizes/ for additional information). 
+
+We would suggest opting for the 8 core VM, to update the calculation:
+
+8 cores * 24 hrs/day * 16 days * 100 instances = 307,200 SUs – round to 320,000 for some dev time since it's a new system to them.
+
+The storage request is fine as submitted.
+
+Please note the following information about Jetstream2:
+
+Docs for JS2 are here: https://docs.jetstream-cloud.org/
+
+There's also a new-ish GUI interface called Exosphere for Jetstream2. It's a balance between the simplicity of Atmosphere and the power of Horizon/API side while being FAR faster and more usable than Horizon, in my opinion. This is the interface we will be recommending to most users.
+
+https://jetstream2.exosphere.app/
+
+and there are docs https://docs.jetstream-cloud.org/ui/exo/exo/
+
+There will be a new version of Atmosphere called Cacao but it is not presently ready. We are recommending Exosphere as the default GUI interface.
+
+
+
+
+Appropriateness of Methodology: Please see summary
+
+Appropriateness of Computational Research Plan: Please see summary
+
+Suggested Allocation End Date: 08/05/2022
