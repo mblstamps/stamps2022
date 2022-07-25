@@ -237,7 +237,7 @@ assembly_memory: 28
 simplejob_mem: 10
 ```
 
-To exit, type `ctrl X` type `y`, and press `enter`. This will write the changes we made to our file. 
+To exit, type `ctrl X`, then `y`, and press `enter`. This will write the changes we made to our file. 
 
 Let's also look at the samples file and make sure that atlas got it right. 
 
