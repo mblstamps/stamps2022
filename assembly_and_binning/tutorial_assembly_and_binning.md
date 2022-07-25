@@ -174,7 +174,7 @@ We can check that the download was successful by listing the files with `ls`:
 ls -lh data
 ```
 
-We see that we now have about 160 MB of data.
+We see that we now have about 90 MB of data.
 
 
 ```
