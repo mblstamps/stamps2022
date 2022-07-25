@@ -74,7 +74,7 @@ Mem:            29Gi       894Mi        27Gi       1.0Mi       1.2Gi        28Gi
 Swap:             0B          0B          0B
 ```
 
-And the amount of CPUs:
+And the number of CPUs:
 
 ```
 nproc
