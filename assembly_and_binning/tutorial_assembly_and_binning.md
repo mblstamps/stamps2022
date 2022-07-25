@@ -432,7 +432,7 @@ And take a look at the assembly itself
 less SRR8859675/assembly/SRR8859675_final_contigs.fasta
 ```
 
-Tons of contigs, most of them babies (#babycontigs).
+Tons of contigs, most of them babies  - short contigs that aren't much longer than the reads they came from!
 
 **Challenge 2:** use a combination of `grep` and `wc` to count the number of contigs in our final assembly. 
 
