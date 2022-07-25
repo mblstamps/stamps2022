@@ -187,7 +187,7 @@ We see that we now have about 160 MB of data.
 We now need to tell atlas where our data is. 
 We do this with the `atlas init` command. 
 We'll also tell atlas that we're working with metagenome data, and that we want atlas to do assembly with megahit.
-(you could definitely use a different assembler! We're using megahit here because it uses the least ram and takes the least amount of time.)
+You could definitely use a different assembler! We're using megahit here because it uses the least RAM and takes the least amount of time.
 
 ```
 atlas init data/ --assembler megahit --data-type metagenome
