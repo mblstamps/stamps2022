@@ -557,7 +557,7 @@ Let's look at this error message and try and figure out what happened.
 
 
 **Challenge 4**
-Look at the stderror log message that was saved.
+Look at the log message that was saved to stderr (the standard error output location on UNIX).
 What do you think happened?
 What process did you go through to figure out what happened?
 
