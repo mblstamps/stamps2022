@@ -449,7 +449,7 @@ grep ">" SRR8859675/assembly/SRR8859675_final_contigs.fasta | wc -l
 
 
 **Challenge 3:** explore the other output files in the assembly directory and subfolders. 
-Find the file with more assembly stats and view it with `less`.
+Find the file with additional assembly stats and view it with `less`.
 
 <details>
   <summary>Challenge Answer</summary>
