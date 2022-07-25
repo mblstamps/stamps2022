@@ -61,7 +61,7 @@ Filesystem      Size  Used Avail Use% Mounted on
 You need at least 10G of space on your instance. 
 If you don't have that much, put up a pink sticky and a helper will come around to help remove files. 
 
-Let's also take a look at how much ram we have available:
+Let's also take a look at how much RAM we have available:
 
 ```
 free -mh
