@@ -1,7 +1,6 @@
 Hands on tutorial: Metagenome Assembly & Binning Workflow
 =============
 
-###### tags: `stamps2022`
 
 
 Today we will execute a *de novo* shotgun metagenome workflow.
