@@ -92,7 +92,7 @@ You may be able to google around for this information, but you will also develop
 We have enough compute to execute our tutorial because we are working with a subsampled dataset. 
 
 The last bit of instance hygiene we need to take care of is making sure that we all have the right channels, or package managers, enabled for the [conda package manager](https://docs.conda.io/en/latest/). 
-We'll go over this in detail, but essentially if our computers don't know where to look to install software, or if they look at the wrong location first, things will go awry. 
+We'll go over this in detail, but essentially if our computers don't know where to look to install software, or if they look at the wrong location first, things will go awry. In this case, without the right channels conda will either be unable to find the software, or will install the wrong versions!
 
 ```
 conda activate
