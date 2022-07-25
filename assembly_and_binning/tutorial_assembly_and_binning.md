@@ -31,7 +31,7 @@ Which is actually a sort of high bar for stringing 17 tools together!
 Metagenomics workflows can take up quite a bit of space. 
 We want to make sure that we have enough space and compute power on our instances to execute the whole thing. 
 
-We need three things to run a workflow: hard drive space, ram, and CPUs. 
+We need three things to run a workflow: hard drive space, RAM, and CPUs. 
 + **hard drive space** is physical, persistent storage. 
 We write our files to disk for long term storage
 + **RAM** is working memory. 
