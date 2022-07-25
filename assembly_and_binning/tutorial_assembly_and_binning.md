@@ -578,7 +578,7 @@ Fatal error: exception Sys_error("SRS049959/binning/DASTool/checkm/storage/tree/
 
 You might come upon [this](https://github.com/Ecogenomics/CheckM/issues/37) github issue. 
 
-The key turns out to be that `Killed` message in the output above, which generally tells you that the computer ran out of memory at this step. This is because we "only" have 16 GB of RAM on these computers, and pplacer requires more.
+The key turns out to be that `Killed` message in the output above, which generally tells you that the computer ran out of memory at this step. This is because we "only" have 29 GB of RAM on the Jetstream computers (and less on binder!), and pplacer requires more.
 
 </details>
 
