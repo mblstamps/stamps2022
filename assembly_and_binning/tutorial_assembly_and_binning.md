@@ -37,7 +37,7 @@ We write our files to disk for long term storage
 It temporarily stores all the information that your computer needs to work right that minute. 
 Some tools need to load all of your data into RAM in order to work with it.
 Assembly is one of these steps -- to assemble metagenomes, you typically need 20-200 GB of RAM or more; the more data you have, the more RAM you will generally need.
-+ **CPUs** are the electronic circuitry within a computer that carries out the instructions of a computer program by performing the basic arithmetic, logic, controlling, and input/output (I/O) operations specified by the instructsion (see wikipedia [article here](https://en.wikipedia.org/wiki/Central_processing_unit)).
++ **CPUs** are the electronic circuitry within a computer that carries out the instructions of a computer program by performing the basic arithmetic, logic, controlling, and input/output (I/O) operations specified by the instructions (see wikipedia [article here](https://en.wikipedia.org/wiki/Central_processing_unit)).
 
 Log into your jetstream instance using `ssh` or the jupyter lab url.
 
