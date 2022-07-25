@@ -357,7 +357,7 @@ PhiX is the contaminant sequence that is removed by ATLAS by default
 #### Rerunning atlas steps
 
 Note that you can rerun `atlas run qc` and (as long as you succeeded the first time) atlas won't rerun anything! 
-That's because atlas (and the snakemake tool its built on) tracks what's been done and won't rerun anything that has suceeded!
+That's because atlas (and the snakemake tool it's built on) tracks what's been done and won't rerun anything that has succeeded!
 
 If you want to rerun the QC step, you can rename (or remove) the output of the atlas step, and rerun `atlas run qc`.
 
