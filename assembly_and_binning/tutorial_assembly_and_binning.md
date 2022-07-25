@@ -91,7 +91,7 @@ In general, it's really hard to know how much of each resource you need for each
 You may be able to google around for this information, but you will also develop this intuition over time as you run more tools. 
 We have enough compute to execute our tutorial because we are working with a subsampled dataset. 
 
-The last bit of instance hygiene we need to take care of is making sure that we all have the right channels, or package managers, enabled for conda. 
+The last bit of instance hygiene we need to take care of is making sure that we all have the right channels, or package managers, enabled for the [conda package manager](https://docs.conda.io/en/latest/). 
 We'll go over this in detail, but essentially if our computers don't know where to look to install software, or if they look at the wrong location first, things will go awry. 
 
 ```
