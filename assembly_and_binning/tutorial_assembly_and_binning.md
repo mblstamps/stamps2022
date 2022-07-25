@@ -294,7 +294,7 @@ atlas run qc
 
 Atlas is automated using a tool called [Snakemake](https://snakemake.readthedocs.io/en/stable/). 
 We love snakemake :) - it does the thing, and orchestrates all the things for you. 
-If this sounds appealing to you, here is a [tutorial](https://angus.readthedocs.io/en/2019/snakemake_for_automation.html) on how to use snakemake.
+If this sounds appealing to you, here is a [tutorial](https://github.com/ngs-docs/2022-GGG298/blob/main/lab-4-snakemake/index.md) on how to use snakemake.
 
 We see that 21 different steps are wrapped by the QC command. 
 These steps control contamination, run quality control (erroneous k-mers, adapters, etc.), and generate reports about the different steps that are run. 
