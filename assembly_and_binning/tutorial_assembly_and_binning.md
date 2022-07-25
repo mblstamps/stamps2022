@@ -461,7 +461,7 @@ Find the file with additional assembly stats and view it with `less`.
 ### Binning
 
 
-Now that we have an assembly, we want to bin it into bins (metagenome assembled genomes).
+Now that we have an assembly, we want to bin the contigs from the assembly into bins (metagenome assembled genomes).
 
 ```
 atlas run binning -n
