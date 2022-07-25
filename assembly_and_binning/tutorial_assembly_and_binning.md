@@ -160,7 +160,7 @@ Each sample has about ~1 GB of data, and it would take too long to run atlas on 
 
 For this tutorial, we subsampled the SRR8859675 to the first 1 million paired-end reads, and we will be working with this subsampled data. 
 
-First, let's download our data.
+First, let's download our subsampled data.
 
 ```
 mkdir data
