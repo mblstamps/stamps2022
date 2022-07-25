@@ -114,7 +114,7 @@ mkdir atlas_workflow
 cd atlas_workflow/
 ```
 
-We also need to install atlas to get this metagenome party started. We'll do that with this code, and we'll go over what it all means in our evening session.
+We also need to install atlas to get this metagenome party started! We'll do that with this code, and we'll go over what it all means in our evening session.
 
 ```
 mamba create -y -n atlas metagenome-atlas=2.9.1
