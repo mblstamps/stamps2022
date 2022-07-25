@@ -405,7 +405,7 @@ atlas run assembly
 ```
 
 Megahit is the meat and potatoes of this pipeline. 
-It orchestrates the assembly of our reads, generating long(er) contigs. 
+It orchestrates the assembly of our reads, generating long(er) contigs from the short reads.
 (We ran it during the initial assembly tutorial, too.)
 
 After the assembly is finished, the reads are mapped back to the assembly. 
