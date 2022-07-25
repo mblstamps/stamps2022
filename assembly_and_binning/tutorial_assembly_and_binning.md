@@ -406,7 +406,6 @@ atlas run assembly
 
 Megahit is the meat and potatoes of this pipeline. 
 It orchestrates the assembly of our reads, generating long(er) contigs from the short reads.
-(We ran it during the initial assembly tutorial, too.)
 
 After the assembly is finished, the reads are mapped back to the assembly. 
 This is good for quality control of our assembly (does our assembly fully capture the information in our reads?), and helps with downstream processes like binning.
