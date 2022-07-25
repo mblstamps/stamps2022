@@ -245,7 +245,7 @@ Let's also look at the samples file and make sure that atlas got it right.
 cat samples.tsv
 ```
 
-Everything looks good here! Atlas successfully realized that we are working with one sample with paired end reads.
+Everything looks good here! We are telling Atlas that we are runnng with one sample with paired end reads.
 
 ## Running atlas!
 
