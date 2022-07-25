@@ -3,7 +3,7 @@ Hands on tutorial: Metagenome Assembly & Binning Workflow
 
 
 
-Today we will execute a *de novo* shotgun metagenome workflow.
+Today we will execute a workflow for metagenome assembly and binning.
 What makes a good metagenome workflow? 
 As with everything we've covered so far, it depends :)
 
