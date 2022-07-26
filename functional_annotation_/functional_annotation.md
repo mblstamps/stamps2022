@@ -232,8 +232,8 @@ We include some below that we like, but keep in mind that this is not an exhaust
 
 | Tool | Annotations | Reference |
 | -------- | -------- | -------- |
-| kofamscan     | KEGG   |      |
-| emapper | COG/NOG, KEGG, CAzy, EC, GO | |
-| bakta | gene names  (not orthologs) | |
-| prokka | gene names (not orthologs) | |
+| kofamscan     | KEGG   |   [ref](https://academic.oup.com/bioinformatics/article/36/7/2251/5631907)   |
+| emapper | COG/NOG, KEGG, CAzy, EC, GO | [ref](https://academic.oup.com/mbe/article/38/12/5825/6379734)|
+| bakta | gene names  (not orthologs) | [ref](https://www.microbiologyresearch.org/content/journal/mgen/10.1099/mgen.0.000685)|
+| prokka | gene names (not orthologs) | [ref](https://academic.oup.com/bioinformatics/article/30/14/2068/2390517) |
 
