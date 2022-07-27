@@ -46,7 +46,7 @@ wget -O SRR8859675_final_contigs.fasta https://osf.io/aq2nk/download
 
 Once we have a contig that we're interested in annotating, the first thing we need to do is identify the open reading frames.
 [ORFs](https://www.genome.gov/genetics-glossary/Open-Reading-Frame) are nucleotides that occur between start and stop codons in DNA sequences.
-ORFs often encode genes, so extracting ORFs gets us one step closer to identifying the functional content in sequences of interest.
+ORFs often encode proteins, so extracting ORFs gets us one step closer to identifying the functional content in sequences of interest.
 
 We'll use prodigal to extract open reading frames.
 As stated above, prodigal is the field-standard for ORF identification and extraction in bacterial and archaeal genomes.
