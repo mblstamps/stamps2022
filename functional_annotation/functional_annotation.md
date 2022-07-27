@@ -18,7 +18,7 @@ cd functional_annotation
 Let's also create a conda environment and install the software programs we'll need.
 
 ```
-mamba create -n annot prodigal=2.6.3 kofamscan=1.3.0
+mamba create -n annot -c conda-forge -c bioconda -c defaults prodigal=2.6.3 kofamscan=1.3.0
 conda activate annot
 ```
 
