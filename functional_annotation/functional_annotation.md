@@ -222,7 +222,6 @@ How would this visualization change if we had run `kofamscan` on MAGS vs. on the
 
 ## Other annotation tools
 
-The next steps in any workflow will depend on the goal of your study.
 
 
 We showed you how to use kofamscan, in part because KEGG offers a rich set of knowledge to integrate with (pathways, metabolites, organisms, etc). 
