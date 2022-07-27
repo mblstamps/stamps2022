@@ -220,7 +220,7 @@ How would this visualization change if we had run `kofamscan` on MAGS vs. on the
     Assuming every contig was binned, we would still see all of the functions represented in the plot, but we would have a row for each MAG. The functions would be spread out across the organisms.
 </details>
 
-## Next steps/future directions
+## Other annotation tools
 
 We annotated a thing! Now what?
 The next steps in any workflow will depend on the goal of your study.
