@@ -1,4 +1,13 @@
 #! /usr/bin/env python
+"""
+Convert 'sourmash tax genome' CSV output into a sourmash taxonomy file,
+suitable for use with 'sourmash tax metagenome'.
+
+This script will soon be integrated into sourmash :).
+See https://github.com/sourmash-bio/sourmash/issues/2153 for more info.
+
+CTB 7/26/22.
+"""
 import sys
 import csv
 import argparse
