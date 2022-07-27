@@ -83,7 +83,10 @@ Usage:  prodigal [-a trans_file] [-c] [-d nuc_file] [-f output_type]
 There are a few flags that are useful here.
 First, we see `-a`, which will allow us to write out amino acid sequences (translated) ORFs.
 `-d` allows us to also save the nucleotide sequences.
-Lastly, `-p` let's us tell prodigal that we're working with a metagenome where we might have fragmented contigs and partial ORFs.
+Lastly, `-p` let's us tell prodigal that we're working with a metagenome.
+By default, prodigal assumes we are working with a single genome. 
+In this mode, it will study the sequences we give it to try to better learn how to predict ORFs for that genome. 
+By telling it we are working with a metagenome (which holds sequences from many different genomes) it will use pre-calculated training files to guide its predictions.
 
 ```
 prodigal -i SRR8859675_final_contigs.fasta -d SRR8859675_final_contigs.fna -a SRR8859675_final_contigs.faa -p meta -o SRR8859675_final_contigs.gbk
