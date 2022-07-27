@@ -171,7 +171,7 @@ ko_list: ko_list
 # Number of hmmsearch processes to be run parallelly
 cpu: 8
 ```
-
+You might notice the `$PATH` variable above. We didn't get to cover what this special variable is in a Unix-like environment, but it can be useful to know about. The PATH variable holds all the locations (directories) our command line will automatically search when looking for a program we try to run. If interested in more about this and how to modify our PATH, you can find more about it [here](https://cac-staff.github.io/swc-bash-lesson/j05-hpc.html) 
 **Challenge**
 How many lines contain computer-readable information in this config file?
 
