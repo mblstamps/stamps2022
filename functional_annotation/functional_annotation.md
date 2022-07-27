@@ -224,7 +224,6 @@ How would this visualization change if we had run `kofamscan` on MAGS vs. on the
 
 The next steps in any workflow will depend on the goal of your study.
 If you have multiple samples, you could do ortholog or pathway level differential abundance analysis with a tool like corncob. 
-If you're interested in what functional content assembles but doesn't bin, you could annotate your MAGs using the above pipeline and compare the content to the assembly.
 
 
 We showed you how to use kofamscan, in part because KEGG offers a rich set of knowledge to integrate with (pathways, metabolites, organisms, etc). 
