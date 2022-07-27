@@ -23,6 +23,7 @@ def main():
 
     tax_names = taxlist(include_strain=False)
 
+    n = 0
     with open(args.tax_genome_csv, newline='') as fp:
         r = csv.DictReader(fp)
 
@@ -36,7 +37,11 @@ def main():
 
                 lineage = lineage.split(';')
                 w.writerow([name, *lineage])
-    
+
+                n += 1
+
+    print(f"Converted {n} rows from tax output to lineage CSV.")
+
 
 if __name__ == '__main__':
     sys.exit(main())
