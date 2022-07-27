@@ -40,7 +40,8 @@ def main():
 
                 n += 1
 
-    print(f"Converted {n} rows from tax output to lineage CSV.")
+    print(f"Converted {n} rows from tax output to lineage CSV.",
+          file=sys.stderr)
 
 
 if __name__ == '__main__':
