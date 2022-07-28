@@ -1,8 +1,15 @@
 # A tutorial: k-mer-based analysis of metagenomes with sourmash
 
-C. Titus Brown
+C. Titus Brown, Taylor Reiter, and Tessa Pierce
+
 July 27, 2022
+
 MBL STAMPS
+
+[![hackmd-github-sync-badge](https://hackmd.io/vYaK2UngTWSkKmcpQMP6NA/badge)](https://hackmd.io/vYaK2UngTWSkKmcpQMP6NA)
+
+[(Permanent link on GitHub)](https://github.com/mblstamps/stamps2022/blob/main/kmers_and_sourmash/README.md)
+
 
 [toc]
 
