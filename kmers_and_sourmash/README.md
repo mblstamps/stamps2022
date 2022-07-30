@@ -21,7 +21,7 @@ We'll be working entirely at the shell prompt, because the shell is excellent at
 
 First, we need to install the software! We'll use conda/mamba to do this.
 
-The below command installs [sourmash](sourmash.readthedocs.io/) and [GNU parallel](https://www.gnu.org/software/parallel/).
+The below command installs [sourmash](https://sourmash.readthedocs.io/) and [GNU parallel](https://www.gnu.org/software/parallel/).
 
 First run:
 ```
@@ -397,7 +397,7 @@ Question 3: why do we not get to 100% classification of the metagenome?
 
 Now we can also classify the genomes and update the taxonomic summary of the metagenome!
 
-First, classify the genomes using GTDB; this will use trace overlaps between contigs in the MAGs and GTDB genomes to tenatively identify the _entire_ bin.
+First, classify the genomes using GTDB; this will use trace overlaps between contigs in the MAGs and GTDB genomes to tentatively identify the _entire_ bin.
 ```
 for i in MAG*.fasta.sig
 do
@@ -505,7 +505,15 @@ ATLAS only bins bacterial and archaeal genomes, so we wouldn't expect much in th
 
 But... how much even _assembles_?
 
-Let's pick a few of the maching genomes out from GTDB and evaluate how many of the k-mers from that genome match to the unassembled metagenome, and then how many of them match to the assembled contigs.
+Let's pick a few of the matching genomes out from GTDB and evaluate how many of the k-mers from that genome match to the unassembled metagenome, and then how many of them match to the assembled contigs.
+
+::::info
+Make sure you're in the `smash` conda environment:
+```
+conda activate # get back to base environment
+conda activate smash # activate sourmash environment
+```
+::::
 
 First, download the contigs:
 ```
@@ -667,7 +675,7 @@ and now we need to configure it.
 
 Per [the genome-grist docs](https://dib-lab.github.io/genome-grist/configuring/#preparing-information-on-local-genomes), we will configure genome-grist to make use of both GTDB genomes _and_ the MAGs we built.
 
-First, create a single sourmash database containign the three MAGs:
+First, create a single sourmash database containing the three MAGs:
 ```
 sourmash sig cat MAG*.fasta.sig -o MAGs.db.zip
 ```
@@ -676,6 +684,10 @@ Next, create a subdirectory to store the actual MAG genomes (needed for mapping)
 ```
 mkdir MAGs
 python -m genome_grist.copy_local_genomes MAG*.fasta -o MAGs/MAGs.info.csv -d MAGs.d
+```
+and make info CSVs for them -
+```
+
 ```
 
 Finally, create a configuration file by executing the entire block of code below -
@@ -694,13 +706,14 @@ local_databases_info:
 - MAGs/MAGs.info.csv
 
 taxonomies:
+- gtdb-rs207.taxonomy.sqldb
 - MAGs.taxonomy.csv
 EOF
 ```
 
 Now we'll run genome-grist; this will take about 30 minutes to install all the software, download and prepare the metagenome, etc.
 ```
-genome-grist run stamps.conf summarize_gather summarize_mapping -j 8 -p
+genome-grist run stamps.conf summarize -j 8 -p
 ```
 
 ## From raw metagenome reads to phyloseq taxonomy table using `sourmash gather` and `sourmash taxonomy`
