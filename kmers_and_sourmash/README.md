@@ -685,6 +685,10 @@ Next, create a subdirectory to store the actual MAG genomes (needed for mapping)
 mkdir MAGs
 python -m genome_grist.copy_local_genomes MAG*.fasta -o MAGs/MAGs.info.csv -d MAGs.d
 ```
+and make info CSVs for them -
+```
+
+```
 
 Finally, create a configuration file by executing the entire block of code below -
 ```shell
@@ -702,13 +706,14 @@ local_databases_info:
 - MAGs/MAGs.info.csv
 
 taxonomies:
+- gtdb-rs207.taxonomy.sqldb
 - MAGs.taxonomy.csv
 EOF
 ```
 
 Now we'll run genome-grist; this will take about 30 minutes to install all the software, download and prepare the metagenome, etc.
 ```
-genome-grist run stamps.conf summarize_gather summarize_mapping -j 8 -p
+genome-grist run stamps.conf summarize -j 8 -p
 ```
 
 ## From raw metagenome reads to phyloseq taxonomy table using `sourmash gather` and `sourmash taxonomy`
