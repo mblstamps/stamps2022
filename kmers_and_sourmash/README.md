@@ -10,6 +10,9 @@ MBL STAMPS
 
 [(Permanent link on GitHub)](https://github.com/mblstamps/stamps2022/blob/main/kmers_and_sourmash/README.md)
 
+This tutorial has now been added to the sourmash docs! See [here](https://sourmash.readthedocs.io/en/latest/tutorial-lemonade.html).
+
+---
 
 [toc]
 
@@ -687,7 +690,7 @@ python -m genome_grist.copy_local_genomes MAG*.fasta -o MAGs/MAGs.info.csv -d MA
 ```
 and make info CSVs for them -
 ```
-
+python -m genome_grist.make_info_file MAGs/MAGs.info.csv
 ```
 
 Finally, create a configuration file by executing the entire block of code below -
@@ -714,6 +717,33 @@ EOF
 Now we'll run genome-grist; this will take about 30 minutes to install all the software, download and prepare the metagenome, etc.
 ```
 genome-grist run stamps.conf summarize -j 8 -p
+```
+
+## Applying spacegraphcats after genome grist
+
+Generate sgc config file:
+```
+genome-grist run stamps.conf make_sgc_conf
+```
+
+then install spacegraphcats dependencies:
+
+```
+wget https://raw.githubusercontent.com/spacegraphcats/spacegraphcats/latest/environment.yml -O spacegraphcats-env.yml
+
+mamba env create -f spacegraphcats-env.yml 
+```
+
+Activate sgc environment and install sgc:
+```
+conda activate spacegraphcats
+
+pip install spacegraphcats
+```
+
+Now run:
+```
+spacegraphcats run outputs.stamps/sgc/SRR8859675.conf search
 ```
 
 ## From raw metagenome reads to phyloseq taxonomy table using `sourmash gather` and `sourmash taxonomy`
